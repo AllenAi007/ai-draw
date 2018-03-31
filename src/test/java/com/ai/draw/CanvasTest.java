@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 /**
  * Test Canvas
  */
-public class CanvasTests {
+public class CanvasTest {
 
     @Test
     public void testDraw() {

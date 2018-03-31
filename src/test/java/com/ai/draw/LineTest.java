@@ -1,6 +1,5 @@
 package com.ai.draw;
 
-import org.junit.Before;
 import org.junit.Test;
 
 import java.util.stream.IntStream;
@@ -10,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Test Line
  */
-public class LineTests extends AbstractCanvasTests{
+public class LineTest extends AbstractCanvasTest {
 
     @Test
     public void testDraw() {
