@@ -10,6 +10,6 @@
 3. mvn clean package
 4. java -jar target/ai-draw-0.0.1-SNAPSHOT.jar 
 
-## Assumtion
+## Assumptions
 There is no much details mentioned about exception handling.
 So far, in case of invalidated command is given, I simply print out the exception message where we can still key in continuously. 
