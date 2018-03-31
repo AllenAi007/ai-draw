@@ -18,6 +18,9 @@ public class Line extends AbstractCanvasDrawer {
         y1 = Integer.parseInt(args[2]);
         x2 = Integer.parseInt(args[3]);
         y2 = Integer.parseInt(args[4]);
+        if(x1 != x2 && y1 != y2) {
+            throw new IllegalArgumentException("Please make sure x1 == x2 or y1 == y2");
+        }
         IntStream.range(x1 - 1, x2).forEach(w -> {
             IntStream.range(y1 - 1, y2).forEach(h -> {
                 String ij = canvas.getTable()[w][h];
